@@ -9,5 +9,12 @@ class EmailParser
     @emails = emails   
   end
   
+  def parse
+    @emails.split([,\s+]).map do |email|
+      email
+    end
+      
+  end
+  
   
 end
