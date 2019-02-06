@@ -10,8 +10,10 @@ class EmailParser
   end
   
   def parse
-    @emails.split(" , ").map do |email|
+   email_array =  @emails.split(" , ").map do |email|
       email
     end
+    email_array
   end
+  
 end
