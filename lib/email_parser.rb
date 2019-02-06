@@ -12,7 +12,7 @@ class EmailParser
   def parse
     @emails.split(/[\,\s]/).map do |email|
       email
-    end.join(" ")
+    end.
   end
   
   
