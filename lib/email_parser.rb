@@ -13,6 +13,7 @@ class EmailParser
     @emails.split([,\s+]).map do |email|
       email
     end
+  end
       
   end
   
