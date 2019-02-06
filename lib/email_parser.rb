@@ -10,7 +10,7 @@ class EmailParser
   end
   
   def parse
-    @emails.split("/ \,\s /").map. do |email|
+    @emails.split("/ \,\s /").map do |email|
       email
     end
   end
