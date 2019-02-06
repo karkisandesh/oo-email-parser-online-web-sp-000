@@ -13,7 +13,7 @@ class EmailParser
   def parse
       emails.split(/[,]/).map do |email|
       email
-    end.flatten.uniq
+    end.uniq
   end
   
 end
